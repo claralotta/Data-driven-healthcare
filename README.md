@@ -11,3 +11,8 @@ Questions we want to answer:
 Can we use these data to predict (classify) cancer?
 Can a glassbox model be used to highlight the global features that drive the prediction?
 
+Files: 
+risk_factors_cervical_cancer.csv : raw data
+CervialCancerRisks_visualizeEBM.ipynb : script to inspect data, split it into test and training set and visually explore the global and local explanations of model outcomes
+CervialCancerRisks_crossValidation.ipynb : running explainable boosting machine in a cross-validated manner (explainability features not included)
+CervialCancerRisks_crossValidation_with_blackbox.ipynb : running the same cross validation as above, but for the two blackbox models (random forest and gradient boosting) 
